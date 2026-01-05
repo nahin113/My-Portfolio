@@ -35,6 +35,9 @@
 header {
     background-color: #FFF8F3;
     padding: 50px;
+    background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -57,4 +60,43 @@ nav .menu a {
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+}
+
+#banner-container {
+    margin: 46px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-content h2 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-content h1 {
+    font-size: 45px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.banner-image {
+    max-width: 585px;
+    vertical-align: middle; /*this is used to remove the gap from the bottom of an image which is browsers default style*/
 }
