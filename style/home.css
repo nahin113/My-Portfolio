@@ -57,6 +57,10 @@
     line-height: 30px;
 }
 
+.item-center {
+    text-align: center;
+}
+
 /* Main style */
 
 
@@ -197,3 +201,68 @@ nav .menu a {
     line-height: 28px;
     color: #757575;
 }
+
+#resume {
+    padding-top: 130px;
+}
+
+#resume .section-heading {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 113px;
+}
+
+#resume .resume-container {
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    gap: 24px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-card {
+    max-width: 511px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-right: 47px;
+}
+
+.resume-card .card-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.resume-card .card-info {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-card .card-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+#resume .item-center .btn {
+    margin-top: 50px;
+}
+
+
+
+
